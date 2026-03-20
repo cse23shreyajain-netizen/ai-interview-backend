@@ -4,8 +4,8 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 // ✅ Import routes correctly
-const authRoutes = require("../auth");
-const interviewRoutes = require("../interview");
+const authRoutes = require("./auth");
+const interviewRoutes = require("./interview");
 
 const app = express();
 
